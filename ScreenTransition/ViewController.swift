@@ -9,11 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btn1: UIButton!
+    @IBOutlet weak var btn2: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        btn1.titleLabel?.adjustsFontSizeToFitWidth = true
+        btn2.titleLabel?.adjustsFontSizeToFitWidth = true
     }
-
-
 }
 
